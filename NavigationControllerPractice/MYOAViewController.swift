@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MYOAViewController
 //  NavigationControllerPractice
 //
 //  Created by Youngsun Paik on 4/10/16.
@@ -8,11 +8,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MYOAViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        self.navigationItem // This can be used to control the title and buttons
     }
 
     override func didReceiveMemoryWarning() {
