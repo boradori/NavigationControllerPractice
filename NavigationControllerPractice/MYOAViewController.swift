@@ -12,7 +12,8 @@ class MYOAViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationItem // This can be used to control the title and buttons
+        // This can be used to control the title and buttons
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Start Over", style: .Bordered , target: self, action: "startOver")
     }
 
     override func didReceiveMemoryWarning() {
