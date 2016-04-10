@@ -66,7 +66,7 @@
         <!--View Controller-->
         <scene sceneID="FJl-s1-XYk">
             <objects>
-                <viewController id="3n0-Xt-RVO" sceneMemberID="viewController">
+                <viewController id="3n0-Xt-RVO" customClass="MYOAViewController" customModule="NavigationControllerPractice" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Dep-yD-Nai"/>
                         <viewControllerLayoutGuide type="bottom" id="LfF-gp-87a"/>
@@ -93,7 +93,7 @@
         <!--View Controller-->
         <scene sceneID="NL4-NE-ggZ">
             <objects>
-                <viewController id="Df7-k8-pzi" sceneMemberID="viewController">
+                <viewController id="Df7-k8-pzi" customClass="MYOAViewController" customModule="NavigationControllerPractice" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Q0u-gQ-gPh"/>
                         <viewControllerLayoutGuide type="bottom" id="6F0-C7-wwp"/>
